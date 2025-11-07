@@ -225,6 +225,9 @@ body,html{
             background: #00BFFF;
             transition: all 0.5s ease;
         }
+        .progress-bar{
+            background-color: #00BFFF;
+        }
         .footer-link:hover::after {
             left: 0;
             width: 100%;
