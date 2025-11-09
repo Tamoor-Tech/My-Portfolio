@@ -82,11 +82,16 @@ body,html{
     border: 1px solid rgb(198, 196, 196);
     background-color: #0d1117;
     color: white;
+    text-decoration: none;
 }
 .project-border:hover{
     transform: scale(1.05);
     transition: 0.3s;
     border: 3px solid #00BFFF;
+}
+.project-links{
+    text-decoration: none;
+    color: white;
 }
 .btn-all{
     background-color: #00BFFF;
@@ -95,6 +100,7 @@ body,html{
 .btn-all:hover{
     background-color: transparent;
     border: 1px solid #00BFFF;
+    color: #00BFFF;
     box-shadow: 0 0 5px #00BFFF, inset 0 0 1px #00BFFF;
 }
 .service-border{
