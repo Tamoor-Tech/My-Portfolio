@@ -75,6 +75,10 @@ body,html{
     transform: scale(1.05);
     transition: 0.3s;
 }
+.progress-bar{
+    color: black;
+    font-weight: bold;
+}
 .lastr{
     width: 99%;
 }
@@ -87,7 +91,8 @@ body,html{
 .project-border:hover{
     transform: scale(1.05);
     transition: 0.3s;
-    border: 3px solid #00BFFF;
+    border: 3px solid black;
+    box-shadow: 0 0 10px #00BFFF, inset 0 0 1px #00BFFF;
 }
 .project-links{
     text-decoration: none;
